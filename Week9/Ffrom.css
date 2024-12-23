@@ -1,0 +1,21 @@
+.Box{
+    font-size: 24px;
+    border: 1px solid black;
+    margin: auto;
+    width: 600;
+    height: 700;
+}
+.Top{
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    width: 300px;
+}
+.N{
+    width: 300;
+    height: 30;
+
+}

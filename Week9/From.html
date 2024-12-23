@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Ffrom.css">
+    <title>HTML FROM</title>
+</head>
+<body>
+    <div class="Box">
+    <p class="Top">แบบฟอร์มสมัครงาน</p>
+   
+    <form action="/index2.html" method="post">
+
+        ชื่อ-นามสกุล 
+        <br> <input type="text" name="name" placeholder="กรอกชื่อ-นามสกุล" class="N" required>
+        <br> <input type="radio" name="sex" value="man"> เพศชาย 
+        <input type="radio" name="sex" value="women"> เพศหญิง
+        <input type="radio" name="sex" value="LGBTQA++"> เพศทางเลือก <br>
+
+        ภาษาโปรแกรมที่ถนัด
+        <br> <input type="checkbox" name="program" value="python"> ภาษา Python 
+        <br> </html> <input type="checkbox" name="program" value="HTML"> ภาษา C++
+        <br> </html> <input type="checkbox" name="program" value="HTML"> ภาษา Java
+        <br> </html> <input type="checkbox" name="program" value="HTML"> ภาษา HTML CSS
+
+        <br> อีเมล 
+        <br> <input type="text" name="gmail" placeholder="กรอกอีเมล" required>
+        <br> เบอร์โทรศัพท์ 
+        <br><input type="tel" name="tel" placeholder="กรอกเบอร์โทรศัพท์" required>
+        <br> ตำแหน่งที่ต้องการสมัคร
+        <br> <select name="select">
+            <option>--เลือกตำแหน่ง--</option>
+            <option value="T1">T1</option>
+            <option value="T2">T2</option>
+            <option value="T3">T3</option>
+            <option value="T4">T4</option>
+        </select><br>
+        อัพโหลดเรซูเม่
+        <input type="file" name="file"><br>
+        ข้อความเพิ่มเติม
+        <br><textarea name="rose" placeholder="กรอกข้อความเพิ่มเติม" required></textarea>
+ 
+ 
+        <br> <input type="submit" value="ส่งใบสมัคร">
+</form>
+</div>
+</body>
+</html>
